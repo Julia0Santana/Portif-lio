@@ -73,7 +73,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        flex-direction: collumn;
+        flex-direction: column;
       }
     
       .main-content {
