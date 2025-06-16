@@ -66,12 +66,14 @@
         background-color: #412b4d;
         color: #fff;
         margin-top: 2rem;
+        width: 100%;
       }
      
       main {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        flex-direction: collumn;
       }
     
       .main-content {
