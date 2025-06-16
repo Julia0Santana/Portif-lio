@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> <!-- Define o conjunto de caracteres utilizado na página, garantindo suporte a caracteres especiais -->
+    <meta name="description" content="Site 07"> <!-- Descrição do conteúdo do site para motores de busca -->
+    <meta name="author" content="Julia"> <!-- Especifica o autor do site -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="página principal"> <!-- Palavras-chave para ajudar na indexação nos motores de busca -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsabilidade da página: define o comportamento em dispositivos móveis -->
+    <link type="text/css" rel="stylesheet" href="style2.css"> <!-- Link para o arquivo CSS externo, onde estão os estilos do site -->
+    <link rel="shortcut icon" href="./img/imagems.png" type="image/x-icon">
+    <script type="text/javascript" src="img.js"></script>
+    <title>Imagens</title> <!-- Título da página exibido na aba do navegador -->
+<!-- Fontes -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<!-- Ícones -->
+<script src="https://kit.fontawesome.com/7d355892dd.js" crossorigin="anonymous" defer></script>
+</head>
+<body>
+    <header>
+        <h1> Portifólio Digital </h1>
+
+        <nav>
+            <ul>
+              <li><a href="index2.html" target="_blank">Portifólio</a></li>
+              <li><a href="videos.html"target="_blank">Vídeos</a></li>
+              <li><a href="imagens.html">Imagens</a></li>
+            </ul>
+          </nav>
+          <br>
+          <style>
+
+            nav a {
+                margin: 0 5px;
+            }
+        </style>
+       
+        <nav>
+            <a href="https://www.instagram.com/" target="_blank"> <i class="fa-brands fa-instagram"></i> </a>
+            <a href="https://www.whatsapp.com/?lang=pt_BR" target="_blank"> <i class="fa-brands fa-whatsapp"></i> </a>
+            <a href="https://www.tiktok.com/pt-BR/" target="_blank"> <i class="fa-brands fa-tiktok"></i> </a>
+        </nav>
+
+    </header>
+<main>
+    <section class="main-content">
+  <article class="text">
+    <h2>Imagens</h2>
+    <p>
+        Nesta seção, você confere capturas dos sites que desenvolvi ao longo do curso. 
+        Cada imagem representa uma etapa da minha evolução como desenvolvedora — 
+        do visual ao funcional — refletindo diferentes estilos, propostas e experiências de usuário.
+    </p>
+   
+  </article>
+<br>
+<br>
+
+<section id="img">
+        <div class="galeria">
+
+            <div class="img-container">
+                <img src="./img/bolo d chocolate.png" alt="Bolo de chocolate" class="img" onclick="cliqueModal(this)">
+                <img src="./img/creme d milho.png" alt="Creme de milho" class="img" onclick="cliqueModal(this)">
+                <img src="./img/cheesecake.png" alt="Cheesecake" class="img" onclick="cliqueModal(this)">
+            </div>
+
+            <div class="img-container">
+                <img src="./img/form.png" alt="Formulário" class="img" onclick="cliqueModal(this)">
+                <img src="./img/cidades.png" alt=" Site Cidades" class="img" onclick="cliqueModal(this)">
+                <img src="./img/ft.png" alt="Fotografias" class="img" onclick="cliqueModal(this)">
+            </div>
+
+            <div class="img-container">
+                <img src="./img/brtc.png" alt="Braintechnology" class="img" onclick="cliqueModal(this)">
+                <img src="./img/bbbb.png" alt="Braintechnology" class="img" onclick="cliqueModal(this)">
+                <img src="./img/bbbbbbb.png" alt="Braintechnology" class="img" onclick="cliqueModal(this)">
+            </div>
+
+            <div class="img-container">
+                <img src="./img/basal.png" alt="Basal" class="img" onclick="cliqueModal(this)">
+                <img src="./img/pdr.png" alt="Basal-Produtos" class="img" onclick="cliqueModal(this)">
+                <img src="./img/aliicate.png" alt="Basal-Alicate" class="img" onclick="cliqueModal(this)">
+            </div>
+
+            <div class="img-container">
+                <img src="./img/martelopng.png" alt="Basal-Martelo" class="img" onclick="cliqueModal(this)">
+                <img src="./img/relacionados.png" alt="Basal-Relacionados" class="img" onclick="cliqueModal(this)">
+                <img src="./img/chave.png" alt="Basal-Chave" class="img" onclick="cliqueModal(this)">
+            </div>
+
+        </div>
+    </section>
+  <!-- <article>
+    <h2>Projetos</h2>
+  </article>
+  <article class="projetos">
+    <aside class="card">
+        <a href=""<img src="./img/imagems.png">Imagens
+       </aside>
+       <aside class="card">
+        <img src="./img/img desing.png">Design
+        </aside>
+        <aside class="card">
+            <img src="./img/programação.png">Programação
+        </aside>
+        <aside class="card">
+            <img src="./img/video.png">Vídeos
+    </aside>
+  </article>
+    </section>
+
+    <figure class="bola">
+       <img src="./img/Julia S.png" alt="imagem julia ssss">
+       <figcaption style="text-align: center;">Julia Santana Oliveira</figcaption>
+    </figure> -->
+</main>
+    <footer>
+        <span>&copy; 2025 Julia Oliveira | Todos os direitos reservados.</span>
+      </footer>
+       <div id="janelaModal" class="janelaModal escondeJanelaModal">
+    <span id="btnFechar" class="fecharModal"><img src="./img/xxxxxxxxxxxxxxxxx.png" width="50px" height="50px"></span>
+    <img id="imgModal" class="imgModal">
+    <div id="txtModal" class="txtModal"></div>
+  </div>
+  
+</body>
+</html>
