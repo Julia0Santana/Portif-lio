@@ -12,7 +12,7 @@ O projeto está dividido em diferentes páginas, cada uma com um foco específic
 - **index.html** — Página inicial com apresentação pessoal e navegação para as demais áreas.
 - **imagens.html** — Galeria de imagens dos projetos, separadas por categorias (sites, design, códigos).
 - **videos.html** — Galeria de vídeos demonstrando projetos de programação e design.
-- **style2.css** — Folha de estilos principal, responsável pelo visual do site.
+- **style.css** — Folha de estilos principal, responsável pelo visual do site.
 - **responsividade.css** — Estilos para responsividade, garantindo boa visualização em diferentes dispositivos.
 - **img/** — Pasta com todas as imagens utilizadas no portfólio.
 - **videos/** — Pasta com os vídeos demonstrativos dos projetos.
@@ -62,21 +62,11 @@ O projeto está dividido em diferentes páginas, cada uma com um foco específic
 ## 📱 Responsividade
 
 O site foi cuidadosamente planejado para funcionar bem em diferentes tamanhos de tela.  
-As principais regras de responsividade estão nos arquivos `style2.css` e `responsividade.css`, garantindo que:
+As principais regras de responsividade estão nos arquivos `style.css` e `responsividade.css`, garantindo que:
 
 - As galerias de imagens e vídeos se ajustem ao tamanho do dispositivo.
 - O menu e rodapé permaneçam acessíveis e legíveis.
 - O modal de imagens nunca ultrapasse o tamanho da tela.
-
----
-
-## 📝 Como Usar
-
-1. **Clone ou baixe o repositório.**
-2. Abra o arquivo `index.html` em seu navegador.
-3. Navegue pelas páginas usando o menu superior.
-4. Clique nas imagens para ampliá-las no modal.
-5. Assista aos vídeos diretamente na página de vídeos.
 
 ---
 
@@ -88,7 +78,7 @@ Portif-lio-main/
 ├── index.html
 ├── imagens.html
 ├── videos.html
-├── style2.css
+├── style.css
 ├── responsividade.css
 ├── img.js
 ├── /img
