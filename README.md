@@ -110,7 +110,6 @@ Pretende cursar engenharia mecânica e segue evoluindo em programação e design
 - Ícones: [Font Awesome](https://fontawesome.com/)
 - Fontes: [Google Fonts](https://fonts.google.com/)
 - Criadora: Julia Santana Oliveira
-- Colaboradores: Lucas Rodrigo C. Marcelino
 - Inspiração: Professores, colegas e todos que apoiaram durante o curso.
 
 ---
@@ -126,5 +125,3 @@ Muito obrigado por visitar meu portfólio digital!
 Espero que tenha gostado e que possamos nos conectar em breve.
 
 ---
-
-Foi gentilmente editado pelo seu amor! Amo você <3
