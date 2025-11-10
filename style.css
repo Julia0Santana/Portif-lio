@@ -1,18 +1,39 @@
 /* =========================
    GERAL (usado em todos)
    ========================= */
+   @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@1,400..900&display=swap');
+h1, h2, h3 {
+
+    color: #ffffff;
+     font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+p{
+    text-align: center;
+    color: #ffffff;
+     font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+.fonte{
+    text-align: center;
+    color: #ffffff;
+     font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
+    z-index: 99999;
+    color: #ffffff;
 }
 
 body {
     width: 100%;
     height: 100vh;
     max-height: 100vh;
-    background-color: #5f3f6c;
+    background-image: url('img/fundo1.jpg');
+    background-size: cover;
     color: aliceblue;
     display: flex;
     flex-direction: column;
@@ -22,13 +43,14 @@ body {
 a {
     text-decoration: none;
     color: #fff;
+    padding: 10px;
 }
 
 /* =========================
    HEADER E NAVEGAÇÃO (todos)
    ========================= */
 header {
-    background-color: #412b4d;
+    background-color: #3f195a7f;
     padding: 25px;
     display: flex;
     align-items: center;
@@ -75,9 +97,12 @@ header h1, a {
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: #412b4d;
     color: #fff;
+    background-color: none;
     width: 100%;
+    color: #ffffff;
+     font-family: 'Playfair Display', serif;
+    font-style: italic;
 }
 
 /* =========================
@@ -88,6 +113,7 @@ main {
     align-items: center;
     justify-content: space-between;
     padding: 2%;
+
 }
 
 .main-content {
@@ -167,7 +193,6 @@ body.imagens main {
     margin-bottom: 10px;
     margin-top: 30px;
     font-size: 1.5em;
-    color: #412b4d;
     text-align: center;
     letter-spacing: 1px;
     font-weight: bold;
@@ -285,7 +310,6 @@ body.imagens main {
     margin-top: 40px;
     margin-bottom: 20px;
     font-size: 2em;
-    color: s#96889e;
     letter-spacing: 1px;
 }
 .video-row {
